@@ -10,3 +10,7 @@ Traditionally paper maps have a fixed scale with respect to the world, and thus 
 Currently all leading digital mapping applications follow the style of printed maps. This ignores the ability of the user to customize the map to suit their specific purpose.
 
 This repository contains a preliminary investigation into the ability of people to estimate distances on a map. Currently, this repository consists of a basic experiment to study the perception of distance between two points relative to a simply reference line. This can be run in a browser through 'linear_perception_experiment.html'. After the specified number of trials have been presented, the program will produce a data log of the responses in a file named 'LinearPerceptionTrialData.txt'. This can be analyzed using the code found in 'linear_scale_experiment_analysis.py', or using the iPython notebook that is also included.
+
+A preliminary experiment shows that the estimation of distance is improved using a larger scale reference (as opposed to the small ones that are commonly found in digital mapping applications). 
+
+![alt text](https://github.com/bnlcas/LinearScalePerception/blob/master/Effect_of_ScaleLine_on_distance_estimation_(preliminary).png  "preliminary result")
